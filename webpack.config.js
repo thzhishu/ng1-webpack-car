@@ -13,11 +13,8 @@ module.exports = {
         test: /\.scss$/,
         loaders: ["style", "css", "sass"]
        },
-       {
-        test: /\.(png|jpg|ttf|woff|svg|eot)$/,
-        loader: 'url-loader?limit=8192'
-       }, // inline base64 URLs for <=8k images, direct URLs for the rest
-       { test: /\.css$/, loader: 'style!css' }
+       { test: /\.css$/, loader: 'style!css' },
+       { test: /\.(woff|png|jpg|gif)$/, loader: 'url-loader?limit=10000' }
     ]
   },
   plugins: [
