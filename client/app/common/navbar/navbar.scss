@@ -1,5 +1,4 @@
-
-.topbar { position:fixed; top:0; left:0; right:0; height:63px; background:#34383c; color:#bfbfbf; padding-left:64px; }
+.topbar { position:fixed; top:0; left:0; right:0; height:63px; background:#34383c; color:#bfbfbf; padding-left:64px; z-index:1001; }
 .topbar > a { display:block; position: absolute; width:64px; top:0; left:0; bottom:0; background: #1e2226 url(../../images/logo.png) no-repeat center center; }
 .topbar h1 { display:inline-block; margin:0; font-size:18px; font-weight:normal; padding-left:20px; line-height: 63px;  }
 .topbar .info { font-size:0; }
