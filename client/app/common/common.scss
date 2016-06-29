@@ -15,3 +15,18 @@ body{
   // scales 1rem to equal 10px.*/
   font: 62.5% 'Roboto', sans-serif;
 }
+
+
+.fr { float:right; }
+.fl { float:left; }
+.tc { text-align: center; }
+.pa { position:absolute; }
+.pr { position:relative; }
+
+
+.c-drop { position:relative; }
+.c-drop .legend {  position:relative; }
+.c-drop .legend i { display:inline-block; width: 8px; height:4px; background:url(../images/icos.png) no-repeat 0 0; vertical-align: middle; margin-left:7px; }
+.c-drop .legend a { color:#bfbfbf; text-decoration: underline; }
+.c-drop .c-drop-cont { display:none; position:absolute; }
+.c-drop:hover .c-drop-cont { display:block;}

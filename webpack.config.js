@@ -13,7 +13,8 @@ module.exports = {
         test: /\.scss$/,
         loaders: ["style", "css", "sass"]
        },
-       { test: /\.css$/, loader: 'style!css' }
+       { test: /\.css$/, loader: 'style!css' },
+       { test: /\.(woff|png|jpg|gif)$/, loader: 'url-loader?limit=10000' }
     ]
   },
   plugins: [
