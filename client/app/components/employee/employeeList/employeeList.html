@@ -30,7 +30,7 @@
       <!-- 主内容标题 end -->
       <!-- 主内容 -->
       <div class="c-main">
-        <div class="employee-list c-table">
+        <div class="employee-list c-table" style="display:none">
           <table>
             <thead>
               <tr>
@@ -188,13 +188,18 @@
           <!-- 列表分页 end -->
 
         </div>
+        <div class="list-empty">
+          <div class="le-img"></div>
+          <div class="le-txt tc">
+            当前未添加员工 
+            <a class="g-btn g-btn-green" ui-sref="employee-add">+  添加新员工</a>
+          </div>
+        </div>
 
       </div>
       <!-- 主内容 end -->
       <!-- 页脚  -->
-      <div class="c-foot tc">
-        2006-2016 All rights reserved 上海皓煦数据技术有限公司 沪ICP备08012157号-5
-      </div>
+      <page-footer></page-footer>
       <!-- 页脚 end -->
     </div>
     <!-- 弹出层 -->
