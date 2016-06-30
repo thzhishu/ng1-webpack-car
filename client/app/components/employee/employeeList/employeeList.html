@@ -3,6 +3,7 @@
 <main>
   <div class="p-gray">
     <div class="playout">
+      <!-- 带搜索+添加的面包屑 -->
       <div class="searchbar">
         <!-- 面包屑导航 -->
         <div class="crumbs">
@@ -19,11 +20,12 @@
         <a href="" class="pa g-btn g-btn-green">+  记录新生意</a>
         <!-- 添加新生意 end-->
       </div>
-        
+      <!-- 带搜索+添加的面包屑 end -->
+
       <!-- 主内容标题 -->
       <div class="pr c-header">
         我的员工
-        <a href="" class="pa s-btn">+新员工</a>
+        <a ui-sref="employee-add" class="pa s-btn">+新员工</a>
       </div>
       <!-- 主内容标题 end -->
       <!-- 主内容 -->
@@ -48,7 +50,7 @@
                 <td>15921256088</td>
                 <td>6次</td>
                 <td>
-                  <a href="">编辑</a>
+                  <a ui-sref="employee-edit">编辑</a>
                   <a href="">删除</a>
                 </td>
               </tr>
