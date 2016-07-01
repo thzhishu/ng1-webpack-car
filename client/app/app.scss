@@ -1,5 +1,5 @@
 * { box-sizing: border-box; }
-
+body { font-family: "Microsoft YaHei", Helvetica,Arial,"Lucida Grande",sans-serif, »ªÎÄÏ¸ºÚ, STHeiti, SimHei; }
 .fr { float:right; }
 .fl { float:left; }
 .tc { text-align: center; }
@@ -40,10 +40,10 @@ html { background-color:#f6f6f6; min-height:100%; }
 .g-field .g-ws { width:114px; }
 
 .g-btns { position:relative; font-size:0; text-align:right; padding:52px 0; }
-.g-btns .g-btn { display:inline-block; width:122px; height:36px; margin-left:32px; line-height: 36px;  color:#fff; font-size:14px; text-align: center; border-radius:4px; cursor:pointer; box-shadow:0 0 5px rgba(119, 119, 119, .75); }
-.g-btns .g-btn-gray { background:#9a9a9a; }
-.g-btns .g-btn-green { background:#38b549; }
-.g-btns .g-btn-green:hover { background:#008f46; } 
+.g-btn { display:inline-block; width:122px; height:36px; margin-left:32px; line-height: 36px;  color:#fff; font-size:14px; text-align: center; border-radius:4px; cursor:pointer; box-shadow:0 0 5px rgba(119, 119, 119, .75); }
+.g-btn-gray { background:#9a9a9a; }
+.g-btn-green { background:#38b549; }
+.g-btn-green:hover { background:#008f46; } 
 
 
 .c-form .g-op { position:absolute; height:16px;  font-size:14px;  padding-left:24px; line-height: 16px; cursor:pointer; }
