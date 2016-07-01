@@ -1,12 +1,13 @@
-* { box-sizing: border-box; }
-body { font-family: "Microsoft YaHei", Helvetica,Arial,"Lucida Grande",sans-serif, »ªÎÄÏ¸ºÚ, STHeiti, SimHei; }
+* { box-sizing: border-box; outline:none; }
+body { font-family: "Microsoft YaHei", Helvetica,Arial,"Lucida Grande",sans-serif, åŽæ–‡ç»†é»‘, STHeiti, SimHei; }
+ul, li { list-style:none; }
 .fr { float:right; }
 .fl { float:left; }
 .tc { text-align: center; }
 .pa { position:absolute; }
 .pr { position:relative; }
 .playout { padding:63px 0 0 64px; }
-html { background-color:#f6f6f6; min-height:100%; }
+html { background-color:#f6f6f6; min-height:100vm; }
 
 .c-drop { position:relative; }
 .c-drop .legend {  position:relative; }
@@ -32,7 +33,7 @@ html { background-color:#f6f6f6; min-height:100%; }
 .g-field input { display:inline-block; height:36px; font-size:14px; border:1px solid #b6b6b6; border-radius:2px; padding:0 13px; line-height: 34px; outline:none; background-color:#fff; }
 .g-field .g-unit { font-size:14px; margin-left:9px; }
 .g-field .g-unit i { vertical-align: super; font-style:normal;  }
-.g-field select { margin-right:10px;}
+.g-field select { margin-right:10px; padding:0 0 0 13px;}
 .g-field .g-wl { width:529px; }
 .g-field .g-wml { width: 282px; }
 .g-field .g-wxm { width: 300px; }
@@ -63,7 +64,7 @@ html { background-color:#f6f6f6; min-height:100%; }
 .s-table .s-tr:nth-child(2n+1) { background:#fff; }
 .s-table .s-tr:hover { background: linear-gradient(to right, #dffbe0, #fff); }
 
-.fwin { position:fixed; top:0; right:0; bottom:0; left:0; z-index: 3000; }
+.fwin { position:fixed; top:0; right:0; bottom:0; left:0; z-index: 3000; display:none; }
 .fwin-mask { width:100%; height:100%; background:rgba(0, 0, 0, .6); }
 .fwin-box { position:absolute; width:560px; height:382px; background:#fff; top:50%; left:50%; margin:-191px 0 0 -280px; border-radius:4px; }
 .fwin-close { position:absolute; top:14px; right:20px; width:26px; height:26px; -ms-transform:rotate(45deg); -moz-transform:rotate(45deg); -webkit-transform:rotate(45deg); transform:rotate(45deg); cursor:pointer;  }
@@ -71,3 +72,30 @@ html { background-color:#f6f6f6; min-height:100%; }
 .fwin-close:after { position:absolute; display:block;  content:''; background:#7c7c7c; }
 .fwin-close:before { width:26px; height: 2px; left:0; top: 12px;  }
 .fwin-close:after { width:2px; height:26px; left:12px; top:0; }
+
+.c-table table { width:100%; color:#343434; font-size:14px; }
+.c-table table th,
+.c-table table td { font-weight:normal; border:1px solid #d6dee4; border-left:none; border-right:none; text-align: center; line-height: 43px; }
+.c-table table th { background:#fff; }
+.c-table table tbody tr:nth-child(2n) { background:#fff; }
+.c-table table tbody tr > td:first-child { width:200px; }
+.c-table table td a { color:#38b549; margin: 0 11px;  }
+
+.bgf-pagination { text-align:right; min-height:46px; background:#fff; padding:0 62px 0 54px;  border-bottom:1px solid #d6dee4; margin-bottom:100px;  }
+.bgf-pagination .mx-paginate-info { float:left; line-height: 30px; font-size:14px; color:#b2c2cc; padding:12px 0; }
+.bgf-pagination ul, 
+.bgf-pagination .mx-paginate-jump { display:inline-block; padding:12px 0; margin:0; }
+.bgf-pagination ul { font-size:0; }
+.bgf-pagination a { color:#b2c2cc; text-decoration: none; line-height: 20px; }
+.bgf-pagination li { display:inline-block; padding:0; height:22px; font-size:0;  }
+.bgf-pagination li a { display:inline-block; font-size:14px; color:#b2c2cc; text-align:center; } 
+.bgf-pagination li:not(.txt-page) a { min-width:25px; border:1px solid #b3c3cd; border-radius:11px; padding:0 8px; margin:0 3px;}
+.bgf-pagination .prev-page { margin-right:19px; }
+.bgf-pagination .next-page { margin-left:14px; }
+.bgf-pagination li.page-ellipse a { border:none; vertical-align: text-bottom; }
+.bgf-pagination .disabled,
+.bgf-pagination .disabled a { cursor:not-allowed;}
+.bgf-pagination li:not(.txt-page).active a { color:#38b549; border-color:#38b549; box-shadow:0 0 5px rgba(119, 119, 119, .75 ) }
+.bgf-pagination .mx-paginate-jump { margin-left:20px; color:#b2c2cc; }
+.bgf-pagination .mx-paginate-jump input { display:inline-block; width:41px; height:19px; outline:none; margin:0 11px 0 13px; text-align:center; }
+.bgf-pagination .mx-paginate-jump button { display:inline-block; width:36px; height:19px; line-height: 18px; background:#38b549; box-shadow:0 0 5px rgba(119, 119, 119, .75); border:none; color:#fff; border-radius:4px; text-align:center; font-size:14px; margin-left:54px; }
