@@ -1,6 +1,6 @@
 import template from './myAccount.html';
 import controller from './myAccount.controller';
-import './myAccount.scss';
+require("!style!css!sass!./myAccount.scss");
 
 let myAccountComponent = {
   restrict: 'E',

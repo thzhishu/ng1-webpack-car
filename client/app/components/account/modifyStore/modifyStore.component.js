@@ -1,6 +1,7 @@
 import template from './modifyStore.html';
 import controller from './modifyStore.controller';
-import './modifyStore.scss';
+require("!style!css!sass!./modifyStore.scss");
+
 
 let modifyStoreComponent = {
   restrict: 'E',

@@ -1,6 +1,6 @@
 import template from './modifyPwd.html';
 import controller from './modifyPwd.controller';
-import './modifyPwd.scss';
+require("!style!css!sass!./modifyPwd.scss");
 
 let modifyPwdComponent = {
   restrict: 'E',

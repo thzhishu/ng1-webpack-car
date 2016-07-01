@@ -2,7 +2,7 @@
 .menu .menus { margin-top: 85px;}
 .menu .menus a { position:relative; display:block; width:64px; height:62px; text-decoration:none; padding:19px 0 }
 .menu .menus a.active, .menu .menus a:hover { background:url(../../images/arr-left.png) no-repeat right center; }
-.menu .menus a div { position:absolute; display:none; width:100px; border:2px solid #8dc63f; height:62px; left:100%; top:0; bottom:0; background:#f6f6f6; line-height:58px; border-left:none; text-align:center; }
+.menu .menus a div { position:absolute; display:none; width:106px; border:1px solid #8dc63f; height:40px; left:100%; top:11px; bottom:0; background:#f6f6f6; line-height:38px; border-left:none; text-align:center; }
 .menu .menus a:hover div { display:block; }
 .menu .menus .menu-ico { display:block; width:24px; height:24px; margin:0 auto; background:url(../../images/menus-ico.png) no-repeat;  }
 .menu .menus .ico-business { background-position: top center; }
