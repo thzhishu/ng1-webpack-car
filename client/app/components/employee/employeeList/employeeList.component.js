@@ -1,6 +1,6 @@
 import template from './employeeList.html';
 import controller from './employeeList.controller';
-import './employeeList.scss';
+require("!style!css!sass!./employeeList.scss");
 
 let employeeListComponent = {
   restrict: 'E',
