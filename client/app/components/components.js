@@ -9,6 +9,10 @@ import EmployeeAdd from './employee/employeeAdd/employeeAdd';
 import EmployeeEdit from './employee/employeeEdit/employeeEdit';
 import Login from './Oauth/login/login';
 import Register from './Oauth/register/register';
+import CustomerList from './customer/customerList/customerList';
+import CustomerDetail from './customer/customerDetail/customerDetail';
+import CustomerAdd from './customer/customerAdd/customerAdd';
+import CustomerEdit from './customer/customerEdit/customerEdit';
 
 
 let componentModule = angular.module('app.components', [
@@ -22,6 +26,10 @@ let componentModule = angular.module('app.components', [
   EmployeeEdit.name,
   Login.name,
   Register.name,
+  CustomerList.name,
+  CustomerDetail.name,
+  CustomerAdd.name,
+  CustomerEdit.name
 ]);
 
 export default componentModule;
