@@ -7,6 +7,8 @@ import ModifyStore from './account/modifyStore/modifyStore';
 import EmployeeList from './employee/employeeList/employeeList';
 import EmployeeAdd from './employee/employeeAdd/employeeAdd';
 import EmployeeEdit from './employee/employeeEdit/employeeEdit';
+import Login from './Oauth/login/login';
+import Register from './Oauth/register/register';
 
 
 let componentModule = angular.module('app.components', [
@@ -17,7 +19,9 @@ let componentModule = angular.module('app.components', [
   ModifyStore.name,
   EmployeeList.name,
   EmployeeAdd.name,
-  EmployeeEdit.name
+  EmployeeEdit.name,
+  Login.name,
+  Register.name,
 ]);
 
 export default componentModule;
