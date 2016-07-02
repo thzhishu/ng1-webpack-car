@@ -101,6 +101,7 @@ html { background-color:#f6f6f6; min-height:100vh; }
 .c-table table tbody tr:nth-child(2n) { background:#fff; }
 .c-table table tbody tr > td:first-child { width:200px; }
 .c-table table td a { color:#38b549; margin: 0 11px; text-decoration: underline; }
+.c-table table tbody tr:hover { background:#a8f5b3; }
 
 .bgf-pagination { text-align:right; min-height:46px; background:#fff; padding:0 62px 0 54px;  border-bottom:1px solid #d6dee4; margin-bottom:100px;  }
 .bgf-pagination .mx-paginate-info { float:left; line-height: 30px; font-size:14px; color:#b2c2cc; padding:12px 0; }
@@ -126,3 +127,7 @@ html { background-color:#f6f6f6; min-height:100vh; }
 .searchbar .search { hegiht:26px; width:227px; border:1px solid #b2c2cc; top:10px; right:160px; }
 .searchbar .search input { display:block; width:202px; height:24px; border:none; padding:0 18px; line-height: 24px; font-size:12px; }
 .searchbar .search .search-btn { position:absolute; width:22px; height:22px; top:1px; right:1px; background:#8dc63f url(images/icos.png) no-repeat -47px 4px; cursor:pointer; }
+
+.list-empty { position:absolute;  font-size:14px; margin-top:-153px; top:55%; left:50%; margin-left:-70px;  }
+.list-empty .le-img { width:139px; height:198px; margin:0 auto 28px;  background:url(images/jixiangwu/jixiangwu_5.png) no-repeat center center; background-size:cover; }
+.list-empty .le-txt a { display:block; margin:25px auto 0; text-decoration: none;  }
