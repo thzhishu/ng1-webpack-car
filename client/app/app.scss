@@ -6,8 +6,8 @@ ul, li { list-style:none; }
 .tc { text-align: center; }
 .pa { position:absolute; }
 .pr { position:relative; }
-.playout { padding:63px 0 0 64px; }
-html { background-color:#f6f6f6; min-height:100vm; }
+.playout { position:relative; padding:63px 0 100px 64px; min-height: 100vh; }
+html { background-color:#f6f6f6; min-height:100vh; }
 
 .c-drop { position:relative; }
 .c-drop .legend {  position:relative; }
@@ -20,13 +20,13 @@ html { background-color:#f6f6f6; min-height:100vm; }
 .crumbs a { display:inline-block; color:#38b549; text-decoration: none; padding:0 5px; }
 .crumbs > a:last-child { color:#777; }
 
-.s-btn { display:inline-block; width:116px; height:25px; font-size:14px;  border:1px solid #38b549; color:#38b549; line-height: 22px; background:#fff; text-decoration: none; text-align: center; border-radius:3px;  }
+.s-btn { display:inline-block; width:116px; height:25px; font-size:14px;  border:1px solid #38b549; color:#38b549; line-height: 22px; background:#fff; text-decoration: none; text-align: center; border-radius:3px; cursor:pointer;  }
 .s-btn:hover { background:#38b549; color:#fff; }
 
 .c-header { margin-top:12px; padding:17px 0 17px 64px; color:#343434; line-height: 1; font-size:18px; }
 .c-header .s-btn {  right:24px; top: 15px;  }
 
-.c-foot { padding:40px 20px; font-size:14px; color:#32323a; }
+.c-foot { position:absolute; bottom:0; left:64px; right:0;  padding:40px 20px; font-size:14px; color:#32323a; line-height:20px; }
 
 
 
@@ -36,17 +36,20 @@ html { background-color:#f6f6f6; min-height:100vm; }
 .g-field .g-label, 
 .g-field .g-sel,
 .g-field .g-ipt { display:inline-block;  }
-.g-field .g-label { width:84px; line-height:36px; vertical-align: top; font-size:14px; }
+.g-field .g-label { width:84px; line-height:36px; vertical-align: top; font-size:14px; color:#343434; }
 .g-field select, 
 .g-field input { display:inline-block; height:36px; font-size:14px; border:1px solid #b6b6b6; border-radius:2px; padding:0 13px; line-height: 34px; outline:none; background-color:#fff; }
 .g-field .g-unit { font-size:14px; margin-left:9px; }
 .g-field .g-unit i { vertical-align: super; font-style:normal;  }
 .g-field select { margin-right:10px; padding:0 0 0 13px;}
+.g-field .g-field-tip { display:inline-block; font-size:12px; color:#9a9a9a; margin-left:13px; }
+.g-field .g-field-tip span { color:#f16557; font-size:14px; margin-right:6px; vertical-align: middle; }
 .g-field .g-wl { width:529px; }
 .g-field .g-wml { width: 282px; }
 .g-field .g-wxm { width: 300px; }
 .g-field .g-wm { width:180px; }
 .g-field .g-ws { width:114px; }
+.g-field .g-w343 { width:343px; }
 
 .g-btns { position:relative; font-size:0; text-align:right; padding:52px 0; }
 .g-btn { display:inline-block; width:122px; height:36px; margin-left:32px; line-height: 36px;  color:#fff; font-size:14px; text-align: center; border-radius:4px; cursor:pointer; box-shadow:0 0 5px rgba(119, 119, 119, .75); }
@@ -72,7 +75,7 @@ html { background-color:#f6f6f6; min-height:100vm; }
 .s-table .s-tr:nth-child(2n+1) { background:#fff; }
 .s-table .s-tr:hover { background: linear-gradient(to right, #dffbe0, #fff); }
 
-.fwin { position:fixed; top:0; right:0; bottom:0; left:0; z-index: 3000; display:block; }
+.fwin { position:fixed; top:0; right:0; bottom:0; left:0; z-index: 3000; display:none; }
 .fwin-mask { width:100%; height:100%; background:rgba(0, 0, 0, .6); }
 .fwin-box { position:absolute; width:560px; height:382px; background:#fff; top:50%; left:50%; margin:-191px 0 0 -280px; border-radius:4px; }
 .fwin-close { position:absolute; top:14px; right:20px; width:26px; height:26px; -ms-transform:rotate(45deg); -moz-transform:rotate(45deg); -webkit-transform:rotate(45deg); transform:rotate(45deg); cursor:pointer;  }
@@ -97,7 +100,7 @@ html { background-color:#f6f6f6; min-height:100vm; }
 .c-table table th { background:#fff; }
 .c-table table tbody tr:nth-child(2n) { background:#fff; }
 .c-table table tbody tr > td:first-child { width:200px; }
-.c-table table td a { color:#38b549; margin: 0 11px;  }
+.c-table table td a { color:#38b549; margin: 0 11px; text-decoration: underline; }
 
 .bgf-pagination { text-align:right; min-height:46px; background:#fff; padding:0 62px 0 54px;  border-bottom:1px solid #d6dee4; margin-bottom:100px;  }
 .bgf-pagination .mx-paginate-info { float:left; line-height: 30px; font-size:14px; color:#b2c2cc; padding:12px 0; }

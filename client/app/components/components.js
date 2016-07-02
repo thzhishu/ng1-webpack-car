@@ -15,7 +15,9 @@ let componentModule = angular.module('app.components', [
   MyAccount.name,
   ModifyPwd.name,
   ModifyStore.name,
-  EmployeeList.name
+  EmployeeList.name,
+  EmployeeAdd.name,
+  EmployeeEdit.name
 ]);
 
 export default componentModule;
