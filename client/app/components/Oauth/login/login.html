@@ -1,10 +1,10 @@
 <div class="login-block">
 <div class="common-top-nav fixed">
 	<div class="wrapper clearfix">
-		<div class="thzs-logo fl"><a href="/login" title="天会智数-车门店">天会智数-车门店</a></div>
+		<div class="thzs-logo fl"><a ui-sref="login" title="天会智数-车门店">天会智数-车门店</a></div>
 		<div class="main-nav fr">
 			<ul>
-				<li><a href="/login" class="cur" title="首页">首页</a></li>
+				<li><a ui-sref="login" class="cur" title="首页">首页</a></li>
 				<li><a href="about-us.html" title="关于我们">关于我们</a></li>
 				<li><a href="contact-us.html" title="联系我们">联系我们</a></li>
 			</ul>
@@ -14,67 +14,65 @@
 <div class="banner-wrap">
     <div class="car-banner">
         <div class="car-title">
-          
+          <i class="wrench-icon wrench-left-icon"></i>
+		  <div class="car-title-block">
+			  <h1>智数车门店</h1>
+			  <h3>汽修门店竞争神器</h3>
+		  </div>
+		  <i class="wrench-icon wrench-right-icon"></i>
         </div>
+		<div class="car-login">
+			<form >
+				<input type="text" placeholder="手机号码" class="input-normal">
+				<div class="input-group">
+					<input type="password" placeholder="密码" class="input-normal">
+					<a ui-sref="register" class="forget-pwd-link">忘记密码?</a>
+				</div>
+				<button type="submit" class="car-login-btn">登&nbsp;&nbsp;录</button>
+			</form>
+		</div>
+		<div class="car-register-link">
+			没有账户?<a ui-sref="register" class="a-link">注册一个</a>
+		</div>
     </div>
 </div>
-<div class="wrapper">
-	<div class="heading"> <span>高效</span><span>易用</span><span>低成本</span> </div>
-	<div class="solution-item">
-		<ul>
-			<li class="solution-pic solution-pic01" onClick="window.open('solution01.html','_self'); ">
-				<div class="cover">
-					<h2>连锁店排名</h2>
-					<i class="icons-arrow"></i></div>
-			</li>
-			<li class="solution-txt" onClick="window.open('solution-in-construction.html','_self'); ">
-				<h2>消费者洞察商业解决方案</h2>
-				<i class="icons-arrow2"></i></li>
-			<li class="solution-pic solution-pic02" onClick="window.open('solution-in-construction.html','_self'); ">
-				<div class="cover">
-					<h2>商业创新解决方案</h2>
-					<i class="icons-arrow"></i></div>
-			</li>
-			<li class="solution-txt" onClick="window.open('solution-in-construction.html','_self'); ">
-				<h2>会员CRM解决方案</h2>
-				<i class="icons-arrow2"></i></li>
-			<li class="solution-pic solution-pic03" onClick="window.open('solution-in-construction.html','_self'); ">
-				<div class="cover">
-					<h2>竞争对手监测</h2>
-					<i class="icons-arrow"></i></div>
-			</li>
-			<li class="solution-txt" onClick="window.open('solution-in-construction.html','_self'); ">
-				<h2>跨界营销</h2>
-				<i class="icons-arrow2"></i></li>
-		</ul>
-	</div>
-	<div class="heading"> 有态度的大数据 </div>
+<div class="wrapper car-remark">
+	<h2 class="car-remark-title">
+		智数车门店门店综合管理平台，基于互联网大数据技术，对门店竞争力做出排名，指出门店优势劣势及改进方向，帮助店主
+	</h2>
 	<div class="our-three clearfix">
-		<div class="col3"> <i class="zhuzhang"></i>
-			<h3>我们主张</h3>
-			<div class="col-txt">致力于将移动互联网技术和连续、真实、高效的大数据灵活运用于解决客户的问题，促进信息与管理决策的整合</div>
+		<div class="col3"> <i class="business-icon"></i>
+			<h3>经营好每一笔生意</h3>
 		</div>
-		<div class="col3"> <i class="fandui"></i>
-			<h3>我们反对</h3>
-			<div class="col-txt">反对将大数据和复杂技术脱离于企业实际，而是首先深刻理解您背后的问题，构建真正切实有效，能够覆盖现在和未来的需求，保持发展弹性的解决方案</div>
+		<div class="col3"> <i class="customer-icon"></i>
+			<h3>服务我每一个客户</h3>
 		</div>
-		<div class="col3"> <i class="shixian"></i>
-			<h3>我们实现</h3>
-			<div class="col-txt">帮助企业完善管理流程，及时发现问题，明确改进方向，实施有效决策，持续追踪效果，最终保持健康持久的发展</div>
+		<div class="col3"> <i class="employee-icon"></i>
+			<h3>管理好每一个员工</h3>
 		</div>
 	</div>
 </div>
-<div class="wrapper">
-	<div class="news-title">03-01<span>2016</span></div>
-</div>
-<div class="news-wrap">
-	<div class="wrapper">
-		<div class="news-pic"><a href="thzhishu-news01.html">天会智数：应用态度大数据解决管理决策难题</a></div>
+<div class="car-service">
+	<div class="car-service-list">
+	<ul>
+		<li class="quick-repairing-block">
+		</li>
+		<li class="integrated-maintenance">
+		</li>
+		<li class="beauty-refit">
+		</li>
+		<li class="tire-specialist">
+		</li>
+	</ul>
 	</div>
+	<div class="car-service-floral"></div>
+	<div class="car-service-floral-2"></div>
 </div>
+<h2 class="car-data-title">
+	相关数据为门店所有，天会智数承诺不把门店数据与第三方共享
+</h2>
 <div class="wrapper">
 	<div class="baozhang-box">
-		<h2 class="mb20">天会智数严格的数据安全与保障</h2>
 		<ul class="anquan-baozhang">
 			<li>
           <div class="icons-alyun"></div>

@@ -8,6 +8,7 @@ import EmployeeList from './employee/employeeList/employeeList';
 import EmployeeAdd from './employee/employeeAdd/employeeAdd';
 import EmployeeEdit from './employee/employeeEdit/employeeEdit';
 import Login from './Oauth/login/login';
+import LoginMin from './Oauth/LoginMin/LoginMin';
 import Register from './Oauth/register/register';
 import CustomerList from './customer/customerList/customerList';
 import CustomerDetail from './customer/customerDetail/customerDetail';
@@ -25,6 +26,7 @@ let componentModule = angular.module('app.components', [
   EmployeeAdd.name,
   EmployeeEdit.name,
   Login.name,
+  LoginMin.name,
   Register.name,
   CustomerList.name,
   CustomerDetail.name,

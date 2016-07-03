@@ -1,0 +1,70 @@
+.login-min {
+    background: #8cc63e;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    .login-min-block {
+        border-radius: 5px;
+        padding: 46px;
+        background: #fff;
+        position: absolute;
+        top: 167px;
+        left: 50%;
+        width: 438px;
+        // height: 355px;
+        margin-left: -219px;
+        i {
+            background: url(../images/right-corner.png) 0 0 no-repeat;
+            position: absolute;
+            right: 0;
+            bottom: -37px;
+            width: 45px;
+            height: 41px;
+        }
+        .fr{
+            float: right;
+        }
+        .login-min-title {
+            color: #008b3d;
+            font-size: 22px;
+        }
+        .login-min-register-link {
+            color: #008b3d;
+            font-size: 12px;
+            line-height: 40px;
+            text-decoration: none;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+        .login-min-input {
+            input {
+                border: 1px solid #b6b6b6;
+                width: 100%;
+                height: 40px;
+                margin-bottom: 25px;
+            }
+            .text-error {
+                display: none;
+            }
+            &.error {
+                input {
+                    border: 1px solid #f86b4f;
+                }
+                .text-error {
+                    color: #f86b4f;
+                    display: block;
+                }
+            }
+        }
+        .login-min-btn-submit {
+            background: #008b3d;
+            color: #fff;
+            width: 100%;
+            line-height: 35px;
+            border: 1px solid transparent;
+        }
+    }
+}
