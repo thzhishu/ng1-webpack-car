@@ -1,5 +1,6 @@
 import template from './app.html';
-require("!style!css!sass!./app.scss");
+import './app.scss';
+import './animate.css';
 
 let appComponent = {
   template,

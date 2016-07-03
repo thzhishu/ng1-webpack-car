@@ -3,17 +3,16 @@
     <h2 class="login-min-title">登录<a ui-sref="register" class="login-min-register-link fr">注册新账户</a></h2>
     <form>
       <div class="login-min-input" ng-class="{error:1}">
-        <input type="" name="" value="">
-        <div class="text-error"></div>
+        <input type="text" placeholder="手机号码" ng-model="oauth.username">
+        <div class="msg"><span class="text-error">请输入正确的手机号码</span></div>
       </div>
       <div class="login-min-input">
-        <input type="" name="" value="">
-        <div class="text-error"></div>
+        <input type="password" placeholder="密码" ng-model="oauth.pwd">
+        <div class="msg"><span class="text-error">请输入正确的密码</span></div>
       </div>
       <div class="login-min-input">
-        <input type="" name="" value=""><img src="" alt="">
-        <a href=""></a>
-        <div class="text-error"></div>
+        <input type="" class="w140 dib" placeholder="验证码" ng-model="oauth.code"><img src="" class="dib link ml10" alt="验证码"><a class="dib link ml10" ng-click="onChangeCode()">换一张</a>
+        <div class="msg"><span class="text-error">请输入验证码</span></div>
       </div>
       <button type="submit" class="login-min-btn-submit">下一步</button>
     </form>

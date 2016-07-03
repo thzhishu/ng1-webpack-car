@@ -8,7 +8,7 @@ import EmployeeList from './employee/employeeList/employeeList';
 import EmployeeAdd from './employee/employeeAdd/employeeAdd';
 import EmployeeEdit from './employee/employeeEdit/employeeEdit';
 import Login from './Oauth/login/login';
-import LoginMin from './Oauth/LoginMin/LoginMin';
+import LoginMin from './Oauth/loginMin/loginMin';
 import Register from './Oauth/register/register';
 import CustomerList from './customer/customerList/customerList';
 import CustomerDetail from './customer/customerDetail/customerDetail';

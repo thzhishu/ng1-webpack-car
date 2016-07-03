@@ -1,7 +1,7 @@
 {
   "name": "th-car",
   "version": "1.0.1",
-  "description": "Starter for Angular + ES6 + (Webpack or JSPM)",
+  "description": "天会智数--车门店",
   "main": "index.js",
   "dependencies": {
     "angular": "^1.5.0",
