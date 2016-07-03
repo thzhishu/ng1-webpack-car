@@ -5,6 +5,17 @@ import customerDetailComponent from './customerDetail.component';
 let customerDetailModule = angular.module('customerDetail', [
   uiRouter
 ])
+.config(($stateProvider, $urlRouterProvider) => {
+  "ngInject";
+
+  $urlRouterProvider.otherwise('/');
+
+  $stateProvider
+    .state('customer-detail', {
+      url: '/customer-detail',
+      template: '<customer-detail></customer-detail>'
+    });
+})
 
 .component('customerDetail', customerDetailComponent);
 

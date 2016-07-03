@@ -1,6 +1,6 @@
 import template from './customerDetail.html';
 import controller from './customerDetail.controller';
-import './customerDetail.scss';
+require("!style!css!sass!./customerDetail.scss");
 
 let customerDetailComponent = {
   restrict: 'E',
