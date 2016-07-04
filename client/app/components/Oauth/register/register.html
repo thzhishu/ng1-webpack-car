@@ -1,6 +1,6 @@
 <div class="register">
-  <div class="register-block animated" ng-class="{zoomOutRight:vm.oauth.submited==1}">
-    <h2 class="register-title">注册<a ui-sref="login-min" class="register-register-link fr">已有账户登录</a></h2>
+  <div class="register-block animated rubberBand" ng-class="{zoomOutRight:vm.oauth.submited==1}">
+    <h2 class="register-title">注册<a ui-sref="login-min" class="register-login-link fr">已有账户登录</a></h2>
     <form>
       <div class="register-input " ng-class="{error:1}">
         <input type="text" class="inner-group" placeholder="请输入您的手机号码" ng-model="vm.oauth.username">

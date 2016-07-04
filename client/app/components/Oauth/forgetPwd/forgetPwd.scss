@@ -1,11 +1,31 @@
-.register {
+.forgetPwd {
     background: #8cc63e;
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    .register-block {
+    .hide {
+        display: none;
+    }
+    .show {
+        display: block;
+    }
+    .loading {
+        display: none;
+        position: absolute;
+        top: 30%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        &.show {
+            display: block;
+        }
+    }
+    .sk-cube-grid .sk-cube{
+        background-color: #fff;
+    }
+    .forgetPwd-block {
         border-radius: 15px 15px 0 15px;
         padding: 46px;
         background: #fff;
@@ -33,11 +53,11 @@
         .dib {
             display: inline-block;
         }
-        .register-title {
+        .forgetPwd-title {
             color: #008b3d;
             font-size: 22px;
         }
-        .register-login-link {
+        .forgetPwd-register-link {
             color: #008b3d;
             font-size: 12px;
             line-height: 40px;
@@ -46,7 +66,7 @@
                 text-decoration: underline;
             }
         }
-        .register-input {
+        .forgetPwd-input {
             position: relative;
             input {
                 border: 1px solid #b6b6b6;
@@ -109,7 +129,7 @@
                 }
             }
         }
-        .register-btn-submit {
+        .forgetPwd-btn-submit {
             background: #008b3d;
             color: #fff;
             width: 100%;

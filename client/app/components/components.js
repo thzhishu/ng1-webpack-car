@@ -10,6 +10,7 @@ import EmployeeEdit from './employee/employeeEdit/employeeEdit';
 import Login from './Oauth/login/login';
 import LoginMin from './Oauth/loginMin/loginMin';
 import Register from './Oauth/register/register';
+import ForgetPwd from './Oauth/forgetPwd/forgetPwd';
 import CustomerList from './customer/customerList/customerList';
 import CustomerDetail from './customer/customerDetail/customerDetail';
 import CustomerAdd from './customer/customerAdd/customerAdd';
@@ -28,6 +29,7 @@ let componentModule = angular.module('app.components', [
   Login.name,
   LoginMin.name,
   Register.name,
+  ForgetPwd.name,
   CustomerList.name,
   CustomerDetail.name,
   CustomerAdd.name,

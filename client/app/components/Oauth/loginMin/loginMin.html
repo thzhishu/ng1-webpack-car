@@ -1,5 +1,5 @@
 <div class="login-min">
-  <div class="login-min-block">
+  <div class="login-min-block animated rubberBand" ng-class="{zoomOutRight:vm.oauth.submited==1}">
     <h2 class="login-min-title">登录<a ui-sref="register" class="login-min-register-link fr">注册新账户</a></h2>
     <form>
       <div class="login-min-input" ng-class="{error:1}">
@@ -14,9 +14,9 @@
         <input type="" class="w140 dib" placeholder="验证码" ng-model="oauth.code"><img src="" class="dib link ml10" alt="验证码"><a class="dib link ml10" ng-click="onChangeCode()">换一张</a>
         <div class="msg"><span class="text-error">请输入验证码</span></div>
       </div>
-      <button type="submit" class="login-min-btn-submit">下一步</button>
+      <button type="submit" class="login-min-btn-submit" ng-click="vm.onLogin()">下一步</button>
     </form>
-    <a ui-sref="register" class="login-min-register-link">忘记密码</a>
+    <a ui-sref="forget-pwd" class="login-min-register-link">忘记密码</a>
     <i></i>
   </div>
 </div>
