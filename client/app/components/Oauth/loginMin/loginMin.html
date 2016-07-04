@@ -1,7 +1,7 @@
 <div class="login-min">
-  <div class="login-min-block animated rubberBand" ng-class="{zoomOutRight:vm.oauth.submited==1}">
+  <div class="login-min-block animated rubberBand" ng-class="{'jump-animation-target':vm.oauth.submited==1}"><!--zoomOutRight:vm.oauth.submited==1,-->
+    <form ng-if="!vm.oauth.submited">
     <h2 class="login-min-title">登录<a ui-sref="register" class="login-min-register-link fr">注册新账户</a></h2>
-    <form>
       <div class="login-min-input" ng-class="{error:1}">
         <input type="text" placeholder="手机号码" ng-model="vm.oauth.username">
         <div class="msg"><span class="text-error">请输入正确的手机号码</span></div>
@@ -16,8 +16,8 @@
         <span>验证码输入 next ,进入 我的账户页面</span>
       </div>
       <button type="submit" class="login-min-btn-submit" ng-click="vm.onLogin()">下一步</button>
-    </form>
     <a ui-sref="forget-pwd" class="login-min-register-link">忘记密码</a>
+    </form>
     <i></i>
   </div>
 </div>
