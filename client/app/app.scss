@@ -30,7 +30,7 @@ html { background-color:#f6f6f6; min-height:100vh; }
 
 
 
-.c-form { padding:0 64px; color:#777; min-width:936px; }
+
 .g-fields { position:relative;  padding-bottom:27px; border-bottom:1px dashed #e3e3e3;  }
 .g-field { font-size:0; margin:15px 0;}
 .g-field .g-label, 
@@ -59,7 +59,7 @@ html { background-color:#f6f6f6; min-height:100vh; }
 .g-btn-green { background:#38b549; }
 .g-btn-green:hover { background:#008f46; } 
 
-
+.c-form { padding:0 64px; color:#777; min-width:936px; }
 .c-form .g-op { position:absolute; height:16px;  font-size:14px;  padding-left:24px; line-height: 16px; cursor:pointer; }
 .c-form .g-op:before { position:absolute; display:block; font-size:12px;  width:16px; height:16px; border-radius:50%;  text-align: center; color:#fff; top:0; left:0; }
 .c-form .g-del { color:#777; right:0; bottom:9px; }

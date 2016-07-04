@@ -5,11 +5,11 @@
     <form ng-if="!vm.oauth.submited">
       <h2 class="login-min-title">登录<a ui-sref="register" class="login-min-register-link fr">注册新账户</a></h2>
       <div class="login-min-input" ng-class="{error:1}">
-        <input type="text" placeholder="手机号码" ng-model="vm.oauth.username">
+        <input type="text" placeholder="请输入您的手机号码" ng-model="vm.oauth.username">
         <div class="msg"><span class="text-error">请输入正确的手机号码</span></div>
       </div>
       <div class="login-min-input">
-        <input type="password" placeholder="密码" ng-model="vm.oauth.pwd">
+        <input type="password" placeholder="请输入您的账户密码" ng-model="vm.oauth.pwd">
         <div class="msg"><span class="text-error">请输入正确的密码</span></div>
       </div>
       <div class="login-min-input">
