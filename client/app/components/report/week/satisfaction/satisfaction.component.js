@@ -1,6 +1,6 @@
 import template from './satisfaction.html';
 import controller from './satisfaction.controller';
-import './satisfaction.scss';
+require("!style!css!sass!./satisfaction.scss");
 
 let satisfactionComponent = {
   restrict: 'E',

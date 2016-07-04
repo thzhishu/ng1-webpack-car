@@ -21,7 +21,8 @@
 .cd-records table { width:100%; text-align: center; line-height: 43px; }
 .cd-records table th { text-align:center; border-top:1px solid #b2c2cc; background:#eef8f2; }
 .cd-records table td { border:1px solid #b2c2cc; border-left:none; border-right:none; background:#fff; }
-.cd-records table .cd-border { border:1px solid #b2c2cc; width:174px; }
+.cd-records table .cd-border { border:1px solid #b2c2cc;  }
+.cd-records table .w174 { width:174px; }
 .cd-records table tr > th:last-child,
 .cd-records table tr > td:last-child { border-right:none; }
 .cd-records .c-cyan { color:#38b549; }

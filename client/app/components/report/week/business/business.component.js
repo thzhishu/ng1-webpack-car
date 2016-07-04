@@ -1,6 +1,6 @@
 import template from './business.html';
 import controller from './business.controller';
-import './business.scss';
+require("!style!css!sass!./business.scss");
 
 let businessComponent = {
   restrict: 'E',
