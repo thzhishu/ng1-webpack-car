@@ -1,5 +1,7 @@
 import template from './app.html';
-require("!style!css!sass!./app.scss");
+import './app.scss';
+import './animate.css';
+import '../../node_modules/spinkit/scss/spinners/9-cube-grid.scss';
 
 let appComponent = {
   template,
