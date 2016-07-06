@@ -9,13 +9,14 @@
           <!-- 门店表单字段 -->
           <h3><span class="title-underline">基础信息</span></h3>
           <div class="g-field">
-            <label for="store_name" class="g-label">门店名称</label>
+            <label for="store_name" class="g-label"><span class="red">*</span>门店名称</label>
             <div class="g-ipt">
               <input type="text" id="store_name" class="g-wl">
+              <a href="javascript:void(0);" class="add-store">新增门店</a>
             </div>
           </div>
           <div class="g-field">
-            <label for="store_name" class="g-label">门店地址</label>
+            <label for="store_name" class="g-label"><span class="red">*</span>门店地址</label>
             <div class="g-sel">
               <select class="g-ws">
                 <option value="1">上海市</option>
@@ -36,7 +37,7 @@
             <input type="text" class="g-wml">
           </div>
           <div class="g-field">
-            <label for="store_server" class="g-label">服务类型</label>
+            <label for="store_server" class="g-label"><span class="red">*</span>服务类型</label>
             <div class="g-ipt">
               <select id="store_park" class="g-wm">
                 <option value="4">4个</option>
@@ -46,24 +47,7 @@
               </select>
             </div>
           </div>
-          <h3><span class="title-underline">详细信息</span></h3>
-          <div class="g-field">
-            <label for="store_area" class="g-label">门店面积</label>
-            <div class="g-ipt">
-              <input type="text" id="store_area" class="g-wm"> <span class="g-unit">m<i>2</i></span>
-            </div>
-          </div>
-          <div class="g-field">
-            <label for="store_park" class="g-label">汽修工位</label>
-            <div class="g-sel">
-              <select id="store_park" class="g-wm">
-                <option value="4">4个</option>
-                <option value="3">3个</option>
-                <option value="2">2个</option>
-                <option value="1">1个</option>
-              </select>
-            </div>
-          </div>
+          <h3><span class="title-underline">详细信息</span><i class="arrow-up"></i></h3>
           <div class="g-field">
             <label for="store_director" class="g-label">负责人</label>
             <div class="g-ipt">
@@ -90,14 +74,31 @@
               </select>
             </div>
           </div>
-          <div class="g-op g-del">删除该门店</div>
+          <div class="g-field">
+            <label for="store_area" class="g-label">门店面积</label>
+            <div class="g-ipt">
+              <input type="text" id="store_area" class="g-wm"> <span class="g-unit">m<i>2</i></span>
+            </div>
+          </div>
+          <div class="g-field">
+            <label for="store_park" class="g-label">汽修工位</label>
+            <div class="g-sel">
+              <select id="store_park" class="g-wm">
+                <option value="4">4个</option>
+                <option value="3">3个</option>
+                <option value="2">2个</option>
+                <option value="1">1个</option>
+              </select>
+            </div>
+          </div>
+          <div class="g-field border-bottom-underline h36">
+            <a href="javascript:void(0);" class="del-store">删除该门店</a>
+          </div>
         </div>
         <!-- 门店表单字段 end -->
         <!-- 门店表单按钮  -->
-        <div class="g-btns">
-          <div class="g-op g-add">其他连锁店</div>
+        <div class="g-btns center">
           <div class="g-btn g-btn-green">保存</div>
-          <div class="g-btn g-btn-gray">取消</div>
         </div>
         <!-- 门店表单按钮 end -->
 
@@ -128,8 +129,8 @@
       </div>
     </div>
     <!-- 弹出层 end -->
+    <i class="right-arrow"></i>
   </div>
-  <i></i>
+  <page-footer class="white"></page-footer>
 </div>
-<page-footer class="white"></page-footer>
 </div>
