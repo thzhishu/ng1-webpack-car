@@ -7,6 +7,10 @@ ul, li { list-style:none; }
 .pa { position:absolute; }
 .pr { position:relative; }
 .playout { position:relative; padding:63px 0 100px 64px; min-height: 100vh; }
+.ds-table { display:table; }
+.ds-cell { display:table-cell; }
+.ds-row { display:table-row;  }
+.c-pink { color:#f16557; }
 html { background-color:#f6f6f6; min-height:100vh; }
 
 .c-drop { position:relative; }
@@ -139,3 +143,8 @@ html { background-color:#f6f6f6; min-height:100vh; }
 .c-tab .c-tab-item:last-child { border-right:none; }
 .c-tab .c-tab-item.active { background:#f6f6f6; height:49px; }
 .c-tab .c-tab-item:last-child.active { border-right:1px solid #cedbde; }
+
+.c-block { position:relative; min-height:160px; padding:20px 20px 8px 186px; border:1px solid #38b549; border-left:none;  }
+.c-block:before, .c-block:after { position:absolute; display:block; content:"";  }
+.c-block:before { top:0; bottom:0; left:0; background:#38b549; width:160px; }
+.c-block:after { width:88px; height:80px; left:36px; top:50%; margin-top: -44px; background:url(images/rp-hands.png) no-repeat bottom left;  }
