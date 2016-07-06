@@ -133,3 +133,9 @@ html { background-color:#f6f6f6; min-height:100vh; }
 .list-empty { position:absolute;  font-size:14px; margin-top:-153px; top:55%; left:50%; margin-left:-70px;  }
 .list-empty .le-img { width:139px; height:198px; margin:0 auto 28px;  background:url(images/jixiangwu/jixiangwu_5.png) no-repeat center center; background-size:cover; }
 .list-empty .le-txt a { display:block; margin:25px auto 0; text-decoration: none;  }
+
+.c-tab { height:49px; line-height: 48px; font-size:0; border-bottom:1px solid #cedbde; background:#eef8f2; }
+.c-tab .c-tab-item { display:inline-block; font-size: 14px; color:#343434; text-decoration: none; padding: 0 34px; border-right:1px solid #cedbde;  }
+.c-tab .c-tab-item:last-child { border-right:none; }
+.c-tab .c-tab-item.active { background:#f6f6f6; height:49px; }
+.c-tab .c-tab-item:last-child.active { border-right:1px solid #cedbde; }

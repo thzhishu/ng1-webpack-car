@@ -14,6 +14,9 @@ import CustomerList from './customer/customerList/customerList';
 import CustomerDetail from './customer/customerDetail/customerDetail';
 import CustomerAdd from './customer/customerAdd/customerAdd';
 import CustomerEdit from './customer/customerEdit/customerEdit';
+import SatisfactionReport from './report/week/satisfaction/satisfaction';
+import BusinessReport from './report/week/business/business';
+
 
 
 let componentModule = angular.module('app.components', [
@@ -31,7 +34,9 @@ let componentModule = angular.module('app.components', [
   CustomerList.name,
   CustomerDetail.name,
   CustomerAdd.name,
-  CustomerEdit.name
+  CustomerEdit.name,
+  SatisfactionReport.name,
+  BusinessReport.name
 ]);
 
 export default componentModule;

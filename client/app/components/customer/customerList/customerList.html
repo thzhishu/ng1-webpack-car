@@ -30,7 +30,7 @@
       <!-- 主内容标题 end -->
       <!-- 主内容 -->
       <div class="c-main">
-        <div class="employee-list c-table">
+        <div class="employee-list c-table" style="display:none;">
           <table>
             <thead>
               <tr>
@@ -52,7 +52,7 @@
                 <td>10800</td>
                 <td>2016/6/20</td>
                 <td>
-                  <a ui-sref="employee-detail">查看详情</a>
+                  <a ui-sref="customer-detail">查看详情</a>
                 </td>
               </tr>
               <tr>
@@ -199,9 +199,10 @@
           <!-- 列表分页 end -->
 
         </div>
-        <div class="list-empty" style="display:none;">
+        <div class="list-empty" >
           <div class="le-img"></div>
           <div class="le-txt tc">
+            <!-- 检索： 未检索到此顾客相关信息 -->
             当前未添加顾客 
             <a class="g-btn g-btn-green" ui-sref="customer-add">+  添加新顾客</a>
           </div>
@@ -214,7 +215,7 @@
       <!-- 页脚 end -->
     </div>
     <!-- 弹出层 -->
-    <div class="fwin del-win employee-del-win">
+    <div class="fwin del-win employee-del-win" style="display:none;">
       <div class="fwin-mask">
         <div class="fwin-box">
           <div class="fwin-close"></div>
