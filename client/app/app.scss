@@ -12,6 +12,9 @@ html,
 body {
   font-family: "Microsoft YaHei", Helvetica,Arial,"Lucida Grande",sans-serif, 华文细黑, STHeiti, SimHei;
 }
+button{
+  border: 0;
+}
 li,
 ul {
   list-style: none;
@@ -237,6 +240,7 @@ html {
   border-radius: 4px;
   cursor: pointer;
   box-shadow: 0 0 5px rgba(119, 119, 119, .75);
+  text-decoration: none;
 }
 .g-btn-gray {
   background: #9a9a9a;
@@ -661,4 +665,10 @@ html {
 }
 .show {
   display: block;
+}
+.warning{
+    color: #f32c52;
+}
+.dib{
+  display: inline-block;
 }

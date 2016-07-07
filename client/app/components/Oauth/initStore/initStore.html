@@ -9,14 +9,14 @@
           <!-- 门店表单字段 -->
           <h3><span class="title-underline">基础信息</span></h3>
           <div class="g-field">
-            <label for="store_name" class="g-label"><span class="red">*</span>门店名称</label>
+            <label for="store_name" class="g-label"><span class="warning">*</span>门店名称</label>
             <div class="g-ipt">
               <input type="text" id="store_name" class="g-wl">
               <a href="javascript:void(0);" class="add-store">新增门店</a>
             </div>
           </div>
           <div class="g-field">
-            <label for="store_name" class="g-label"><span class="red">*</span>门店地址</label>
+            <label for="store_name" class="g-label"><span class="warning">*</span>门店地址</label>
             <div class="g-sel">
               <select class="g-ws">
                 <option value="1">上海市</option>
@@ -37,7 +37,7 @@
             <input type="text" class="g-wml">
           </div>
           <div class="g-field">
-            <label for="store_server" class="g-label"><span class="red">*</span>服务类型</label>
+            <label for="store_server" class="g-label"><span class="warning">*</span>服务类型</label>
             <div class="g-ipt">
               <select id="store_park" class="g-wm">
                 <option value="4">4个</option>
@@ -98,7 +98,7 @@
         <!-- 门店表单字段 end -->
         <!-- 门店表单按钮  -->
         <div class="g-btns center">
-          <div class="g-btn g-btn-green">保存</div>
+          <a class="g-btn g-btn-green" ui-sref="business-list">保存</a>
         </div>
         <!-- 门店表单按钮 end -->
 
