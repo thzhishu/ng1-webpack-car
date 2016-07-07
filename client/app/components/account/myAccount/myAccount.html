@@ -16,19 +16,19 @@
         
         <div class="s-tr">
           <div class="s-td">账户版本:</div>
-          <div class="s-td">免费</div>
+          <div class="s-td">{{vm.accountBaseInfo.version}}</div>
         </div>
-        <div class="s-tr">
-          <div class="s-td">门店资料：</div>
-          <div class="s-td">徐汇区肇嘉浜路店<a ui-sref="modify-store">修改</a></div>
+        <div class="s-tr" ng-repeat="store in vm.accountBaseInfo.stores">
+          <div class="s-td"><span ng-if="$first">门店资料：</span></div>
+          <div class="s-td">{{store.name}}<a ui-sref="modify-store({id: store.id})">修改</a></div>
         </div>
-        <div class="s-tr">
+        <!--<div class="s-tr">
           <div class="s-td"></div>
           <div class="s-td">徐汇区肇嘉浜路店<a ui-sref="modify-store">修改</a></div>
-        </div>
+        </div>-->
         <div class="s-tr">
           <div class="s-td">登录账号：</div>
-          <div class="s-td">18098776787</div>
+          <div class="s-td">{{vm.accountBaseInfo.user.name}}</div>
         </div>
         <div class="s-tr">
           <div class="s-td">登录密码：</div>

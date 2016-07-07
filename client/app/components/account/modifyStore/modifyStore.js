@@ -12,7 +12,7 @@ let modifyStoreModule = angular.module('modifyStore', [
 
   $stateProvider
     .state('modify-store', {
-      url: '/modify-store',
+      url: '/modify-store/:id',
       template: '<modify-store></modify-store>'
     });
 })
