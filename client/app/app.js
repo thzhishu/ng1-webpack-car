@@ -6,7 +6,6 @@ import Common from './common/common';
 import Components from './components/components';
 
 
-
 angular.module('app', [
     uiRouter,
     Common.name,

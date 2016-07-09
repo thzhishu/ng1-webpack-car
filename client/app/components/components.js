@@ -12,6 +12,7 @@ import LoginMin from './Oauth/loginMin/loginMin';
 import Register from './Oauth/register/register';
 import ForgetPwd from './Oauth/forgetPwd/forgetPwd';
 import InitStore from './Oauth/initStore/initStore';
+import OauthServices from './Oauth/services/services';
 import CustomerList from './customer/customerList/customerList';
 import CustomerDetail from './customer/customerDetail/customerDetail';
 import CustomerAdd from './customer/customerAdd/customerAdd';
@@ -21,6 +22,7 @@ import BusinessReport from './report/week/business/business';
 import LineChart from './charts/lineChart/lineChart';
 import businessAdd from './business/businessAdd/businessAdd';
 import businessList from './business/businessList/businessList';
+
 
 let componentModule = angular.module('app.components', [
   Home.name,
@@ -44,7 +46,8 @@ let componentModule = angular.module('app.components', [
   BusinessReport.name,
   LineChart.name,
   businessList.name,
-  businessAdd.name
+  businessAdd.name,
+  OauthServices.name
 ]);
 
 export default componentModule;

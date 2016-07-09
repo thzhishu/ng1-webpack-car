@@ -8,6 +8,7 @@
     "angular-resource": "^1.5.7",
     "angular-ui-router": "^0.2.15",
     "echarts": "^3.2.1",
+    "google-closure-library": "^20160619.0.0",
     "normalize.css": "^3.0.3",
     "spinkit": "^1.2.5"
   },
