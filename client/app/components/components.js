@@ -19,9 +19,9 @@ import CustomerEdit from './customer/customerEdit/customerEdit';
 import SatisfactionReport from './report/week/satisfaction/satisfaction';
 import BusinessReport from './report/week/business/business';
 import LineChart from './charts/lineChart/lineChart';
+import businessAdd from './business/businessAdd/businessAdd';
+import businessList from './business/businessList/businessList';
 
-
-console.log(LineChart.name);
 let componentModule = angular.module('app.components', [
   Home.name,
   About.name,
@@ -42,7 +42,9 @@ let componentModule = angular.module('app.components', [
   CustomerEdit.name,
   SatisfactionReport.name,
   BusinessReport.name,
-  LineChart.name
+  LineChart.name,
+  businessList.name,
+  businessAdd.name
 ]);
 
 export default componentModule;
