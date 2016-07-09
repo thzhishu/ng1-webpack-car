@@ -1,8 +1,10 @@
 class MyAccountController {
-	constructor() {
+	constructor(myAccount) {
+		"ngInject";
 		this.name = 'myAccount';
+		this.myAccount = myAccount;
 		this.accountBaseInfo = {
-			version: '免费',
+			version: '免费版',
 			stores: [
 				{
 					id: 1,
@@ -15,7 +17,13 @@ class MyAccountController {
 			user: {
 				name: '18098776787'
 			}
+
 		}
+		this.init();
+		console.log(this.myAccount);
+	}
+	init () {
+		const info = this.myAccount.testInfo()
 	}
 }
 

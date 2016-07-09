@@ -1,9 +1,11 @@
 import angular from 'angular';
 import uiRouter from 'angular-ui-router';
 import myAccountComponent from './myAccount.component';
+import services from '../services/services';
 
 let myAccountModule = angular.module('myAccount', [
-  uiRouter
+  uiRouter,
+  services.name
 ])
 .config(($stateProvider, $urlRouterProvider) => {
   "ngInject";

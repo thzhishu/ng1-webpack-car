@@ -1,6 +1,6 @@
 class NavbarController {
   constructor() {
-    this.title = '智数车门店';
+    this.title = '天会智数车门店';
   }
 }
 

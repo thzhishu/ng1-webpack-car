@@ -1,0 +1,29 @@
+{
+    "meta":{
+        "code": 200,
+        "link": "",
+        "limit": "",
+        "total":  "",
+        "current": "",
+        "method": "GET",
+        "parameters" : {         
+        },
+        "store": { 
+        
+        }
+
+    },
+    "data":{ 
+        "version": "免费版",
+        "stores": [
+            {}
+        ],
+        "user": {
+            "name": "13120998988"
+        }
+    },
+    "error":{
+        "code": 0,
+        "message": "你是对的"
+    }
+} 

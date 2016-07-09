@@ -35,5 +35,10 @@ module.exports = {
         return module.resource && module.resource.indexOf(path.resolve(__dirname, 'client')) === -1;
       }
     })
-  ]
+  ],
+  resolve: {
+    alias: {
+      URLS: path.resolve(__dirname, 'client') + '/app/conf/URL'
+    }
+  }
 };
