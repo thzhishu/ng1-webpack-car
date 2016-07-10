@@ -42,7 +42,7 @@
                 <th>操作</th>
               </tr>
             </thead>
-            <tbody>
+            <tbody style="display:none;">
               <tr>
                 <td>1</td>
                 <td>向景景</td>
@@ -157,7 +157,7 @@
           </table>
 
           <!-- 列表分页 -->
-          <div class="bgf-pagination mt20 center paginate-anything mx-paginate ng-isolate-scope" bgf-pagination="" page="vm.project.currentPage"
+          <div style="display:none;" class="bgf-pagination mt20 center paginate-anything mx-paginate ng-isolate-scope" bgf-pagination="" page="vm.project.currentPage"
             link-group-size="1" num-pages="vm.pageTotal" auto-presets="false" per-page="vm.project.pageSize" num-items="vm.project.pageCount">
 
             <div  class="mx-paginate-info ng-binding ng-scope">共20条记录， 每页10条</div>
@@ -188,7 +188,7 @@
           <!-- 列表分页 end -->
 
         </div>
-        <div class="list-empty" style="display:none;" >
+        <div class="list-empty"  >
           <div class="le-img"></div>
           <div class="le-txt tc">
             当前未添加员工 
