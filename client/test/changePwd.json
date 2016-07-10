@@ -9,21 +9,15 @@
         "parameters" : {         
         },
         "store": { 
-        
+
         }
 
     },
     "data":{ 
-        "version": "免费版",
-        "stores": [
-            {}
-        ],
-        "user": {
-            "name": "13120998988"
-        }
+        "message": "change password success"
     },
     "error":{
         "code": 0,
-        "message": "你是对的"
+        "message": "you're right"
     }
 } 

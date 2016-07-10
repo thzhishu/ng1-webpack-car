@@ -1,8 +1,9 @@
 class MyAccountController {
-	constructor(myAccount) {
+	constructor(myAccount, shopService) {
 		"ngInject";
 		this.name = 'myAccount';
 		this.myAccount = myAccount;
+		this.shopService = shopService;
 		this.accountBaseInfo = {
 			version: '免费版',
 			stores: [
@@ -23,7 +24,22 @@ class MyAccountController {
 		console.log(this.myAccount);
 	}
 	init () {
-		const info = this.myAccount.testInfo()
+		let info = this.myAccount.testInfo();
+		const self = this;
+		console.log(info);
+		console.log(info.data);
+		info.then(function(data) {
+			console.log('data..')
+			console.log(data);
+			self.accountBaseInfo = data;
+		})
+		this.myAccount.allComplete().then(function(data) {
+			console.log('data: ', data);
+		}, function(data) {
+			console.log('err data: ', data);
+		});
+		
+		
 	}
 }
 

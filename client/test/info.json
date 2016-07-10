@@ -1,0 +1,41 @@
+{
+    "meta":{
+        "code": 200,
+        "link": "",
+        "limit": "",
+        "total":  "",
+        "current": "",
+        "method": "GET",
+        "parameters" : {         
+        },
+        "store": { 
+        
+        }
+
+    },
+    "data":{ 
+        "version": "免费版",
+        "stores": [
+            {
+                "id": 1,
+                "name": "徐汇区肇嘉浜路店"
+            },{
+                "id": 2,
+                "name": "人民广场店"
+            },{
+                "id": 3,
+                "name": "世纪大道店"
+            },{
+                "id": 4,
+                "name": "大连路店"
+            }
+        ],
+        "user": {
+            "name": "13120998988"
+        }
+    },
+    "error":{
+        "code": 0,
+        "message": "你是对的"
+    }
+} 
