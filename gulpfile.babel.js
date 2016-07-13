@@ -79,7 +79,11 @@ gulp.task('serve', () => {
   serve({
     port: process.env.PORT || 3000,
     open: false,
-    server: {baseDir: root},
+    //server: {baseDir: root},
+    proxy: {
+      target: 'http://192.168.1.65:9000',
+
+    },
     middleware: [
       historyApiFallback(),
       webpackDevMiddelware(compiler, {

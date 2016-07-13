@@ -12,7 +12,7 @@ let employeeEditModule = angular.module('employeeEdit', [
 
   $stateProvider
     .state('employee-edit', {
-      url: '/employee-edit',
+      url: '/employee-edit/:id',
       template: '<employee-edit></employee-edit>'
     });
 })

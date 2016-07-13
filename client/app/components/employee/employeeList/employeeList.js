@@ -1,9 +1,12 @@
 import angular from 'angular';
 import uiRouter from 'angular-ui-router';
 import employeeListComponent from './employeeList.component';
+import employeeServices from '../services/employee.service';
+
 
 let employeeListModule = angular.module('employeeList', [
-  uiRouter
+  uiRouter,
+  employeeServices.name
 ])
 .config(($stateProvider, $urlRouterProvider) => {
   "ngInject";

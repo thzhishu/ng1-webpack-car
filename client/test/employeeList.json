@@ -1,0 +1,103 @@
+{
+    "meta":{
+        "code": 200,
+        "link": "",
+        "limit": "",
+        "total":  "",
+        "current": "",
+        "method": "GET",
+        "parameters" : {         
+        },
+        "store": { 
+        
+        }
+
+    },
+    "data":[
+        {
+            "id": 1,
+            "name": "张三1",
+            "code": "DFD-00001",
+            "mobile": "12345678901",
+            "serviceTimes": 10,
+            "createTime": "2016/07/01",
+            "updateTime": "2016/07/02"
+        },{
+            "id": 2,
+            "name": "张三2",
+            "code": "DFD-00002",
+            "mobile": "12345678902",
+            "serviceTimes": 10,
+            "createTime": "2016/07/01",
+            "updateTime": "2016/07/02"
+        },{
+            "id": 3,
+            "name": "张三3",
+            "code": "DFD-00001",
+            "mobile": "12345678901",
+            "serviceTimes": 10,
+            "createTime": "2016/07/01",
+            "updateTime": "2016/07/02"
+        },{
+            "id": 4,
+            "name": "张三4",
+            "code": "DFD-00001",
+            "mobile": "12345678901",
+            "serviceTimes": 10,
+            "createTime": "2016/07/01",
+            "updateTime": "2016/07/02"
+        },{
+            "id": 5,
+            "name": "张三5",
+            "code": "DFD-00001",
+            "mobile": "12345678901",
+            "serviceTimes": 10,
+            "createTime": "2016/07/01",
+            "updateTime": "2016/07/02"
+        },{
+            "id": 6,
+            "name": "张三6",
+            "code": "DFD-00001",
+            "mobile": "12345678901",
+            "serviceTimes": 10,
+            "createTime": "2016/07/01",
+            "updateTime": "2016/07/02"
+        },{
+            "id": 7,
+            "name": "张三7",
+            "code": "DFD-00001",
+            "mobile": "12345678901",
+            "serviceTimes": 10,
+            "createTime": "2016/07/01",
+            "updateTime": "2016/07/02"
+        },{
+            "id": 8,
+            "name": "张三8",
+            "code": "DFD-00001",
+            "mobile": "12345678901",
+            "serviceTimes": 10,
+            "createTime": "2016/07/01",
+            "updateTime": "2016/07/02"
+        },{
+            "id": 9,
+            "name": "张三9",
+            "code": "DFD-00001",
+            "mobile": "12345678901",
+            "serviceTimes": 10,
+            "createTime": "2016/07/01",
+            "updateTime": "2016/07/02"
+        },{
+            "id": 10,
+            "name": "张三10",
+            "code": "DFD-00001",
+            "mobile": "12345678901",
+            "serviceTimes": 10,
+            "createTime": "2016/07/01",
+            "updateTime": "2016/07/02"
+        }
+    ],
+    "error":{
+        "code": 0,
+        "message": "你是对的"
+    }
+} 
