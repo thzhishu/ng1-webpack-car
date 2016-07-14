@@ -32,6 +32,9 @@ class employeeApi {
                     type: 'delete'
                 }
                 
+            },
+            getById: {
+                method: 'GET'
             }
         });
     }
